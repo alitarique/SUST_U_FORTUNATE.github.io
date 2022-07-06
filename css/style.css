@@ -116,16 +116,16 @@ body {
 
 
 @media all and (min-width: 768px) and (max-width:991px) {
-    body {
+    /* body {
         display: flex;
         justify-content: center;
         align-items: center;
         min-height: 100vh;
         background-color: #000;
-    }
+    } */
 
     .team {
-        position: relative;
+        position: absolute;
         padding-left: 0;
     }
 
@@ -133,7 +133,7 @@ body {
         position: absolute;
         /* color: #fff; */
         transform: translate(-50%, -50%);
-        font-size: 1cm;
+        font-size: 70px;
     }
 
     .team h2:nth-child(1) {
@@ -164,14 +164,15 @@ body {
 
     .coming {
 
-        margin-top: 300px;
-        margin-left: -175px;
+        margin-top: 250px;
+        margin-left: 0px;
         border: red;
         color: aliceblue;
+        position: absolute
     }
 
     .coming h2 {
-        font-size: 50px;
+        font-size: 30px;
         color: #000;
         position: relative;
         text-transform: uppercase;
@@ -243,7 +244,7 @@ body {
         position: absolute;
         /* color: #fff; */
         transform: translate(-50%, -50%);
-        font-size: 30px;
+        font-size: 35px;
 
     }
 
@@ -277,13 +278,13 @@ body {
 
         margin-top: 150px;
         margin-right: 0px;
-        border: red solid 3px;
+        /* border: red solid 3px; */
         color: aliceblue;
         position: absolute;
     }
 
     .coming h2 {
-        font-size: 15px;
+        font-size: 20px;
         color: #000;
         position: relative;
         text-transform: uppercase;
